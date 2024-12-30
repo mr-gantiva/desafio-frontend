@@ -1,41 +1,45 @@
 # prueba-frontend-vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Desarrollo de una SPA que contiene
 
-## Recommended IDE Setup
+## Demo desplegado en Firebase Hosting
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+[Ver demo](https://proyecto-frontend-ae09e.web.app/)
 
-## Customize configuration
+## Técnologias utilizadas
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Vue.js
+- Vue Router
+- Pinia
+- Vitest
 
-## Project Setup
+## Descripción
+
+- Manejo del estado con Pinia
+- Navegación con Vue Router
+- Comunicación entre componentes
+- Despliegue con Firebase Hosting
+
+## Configuración del proyecto
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compilar y recargar en caliente para el desarrollo
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Compilar y minimizar para producción
 
 ```sh
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### Ejecutar pruebas unitarias con [Vitest](https://vitest.dev/)
 
 ```sh
 npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
