@@ -1,0 +1,15 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Componente Child > Snapshot de Child.vue 1`] = `
+"<div class="container">
+  <h2 class="text-center">Componenten hijo</h2>
+  <div class="row">
+    <div class="col-8 offset-2">
+      <div class="container">
+        <div class="mb-3"><input type="text" class="form-control" placeholder="Escribe un mensaje"></div>
+        <div class="mb-3 d-flex justify-content-center"><button class="btn btn-success">Enviar mensaje al padre</button></div>
+      </div>
+    </div>
+  </div>
+</div>"
+`;

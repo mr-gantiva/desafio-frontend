@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Componente Child.vue > Snapshot de Child.vue 1`] = `
+"<div class="container">
+  <h2 class="text-center">Componenten hijo</h2>
+  <div class="row">
+    <div class="col-8 offset-2">
+      <div class="container">
+        <div class="mb-3"><input type="text" class="form-control" placeholder="Escribe un mensaje"></div>
+        <div class="mb-3 d-flex justify-content-center"><button class="btn btn-success">Enviar mensaje al padre</button></div>
+      </div>
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`Componente Parent.vue > Snapshot de Parent.vue 1`] = `
+"<div data-v-91bb33a1="" class="container">
+  <div data-v-91bb33a1="" class="col-8 offset-2 box-mensaje py-5">
+    <h2 data-v-91bb33a1="" class="text-center bg-titulo">Componenten padre</h2>
+    <h3 data-v-91bb33a1="" class="text-center">Mensaje recibido: <span data-v-91bb33a1="" class="bg-mensaje px-5 mx-3"></span></h3>
+    <child-stub data-v-91bb33a1=""></child-stub>
+  </div>
+</div>"
+`;
